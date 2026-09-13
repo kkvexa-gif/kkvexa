@@ -1,0 +1,23 @@
+<svg width="220" height="48" viewBox="0 0 220 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad-dark-h" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563EB" />
+      <stop offset="100%" stop-color="#06B6D4" />
+    </linearGradient>
+  </defs>
+  <!-- Symbol -->
+  <g transform="translate(2, 4) scale(0.83)">
+    <path d="M8 10L18 4L22 14L12 20L8 10Z" fill="url(#grad-dark-h)" />
+    <path d="M8 38L18 44L22 34L12 28L8 38Z" fill="#1D4ED8" />
+    <polygon points="24,12 36,20 36,28 24,36 12,28 12,20" stroke="url(#grad-dark-h)" stroke-width="2.5" fill="#0F1724" />
+    <path d="M16 16L32 32" stroke="#06B6D4" stroke-width="3" stroke-linecap="round" />
+    <path d="M32 16L16 32" stroke="#F8FAFC" stroke-width="2.5" stroke-linecap="round" />
+    <path d="M30 4L40 10L36 20L26 14L30 4Z" fill="#06B6D4" />
+    <path d="M30 44L40 38L36 28L26 34L30 44Z" fill="url(#grad-dark-h)" />
+    <circle cx="24" cy="24" r="2" fill="#06B6D4" />
+  </g>
+  <!-- Wordmark KKVEXA -->
+  <text x="52" y="28" fill="#F8FAFC" font-family="Inter, system-ui, sans-serif" font-size="20" font-weight="800" letter-spacing="2.5">KKVEXA</text>
+  <!-- Descriptor -->
+  <text x="53" y="39" fill="#A8B3C2" font-family="Inter, system-ui, sans-serif" font-size="7.5" font-weight="600" letter-spacing="2">AI &amp; SOFTWARE STUDIO</text>
+</svg>

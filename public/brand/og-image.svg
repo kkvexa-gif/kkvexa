@@ -1,0 +1,27 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#080D16" />
+  <!-- Background Glow & Grid -->
+  <circle cx="600" cy="200" r="400" fill="#2563EB" fill-opacity="0.12" filter="blur(120px)" />
+  <circle cx="750" cy="350" r="300" fill="#06B6D4" fill-opacity="0.1" filter="blur(100px)" />
+  <rect x="60" y="60" width="1080" height="510" rx="24" stroke="rgba(255,255,255,0.08)" stroke-width="1.5" />
+  <!-- Inner Card -->
+  <g transform="translate(120, 140)">
+    <!-- Emblem -->
+    <g transform="scale(1.8)">
+      <path d="M8 10L18 4L22 14L12 20L8 10Z" fill="#2563EB" />
+      <path d="M8 38L18 44L22 34L12 28L8 38Z" fill="#1D4ED8" />
+      <polygon points="24,12 36,20 36,28 24,36 12,28 12,20" stroke="#06B6D4" stroke-width="2.5" fill="#0F1724" />
+      <path d="M16 16L32 32" stroke="#06B6D4" stroke-width="3" stroke-linecap="round" />
+      <path d="M32 16L16 32" stroke="#F8FAFC" stroke-width="2.5" stroke-linecap="round" />
+      <path d="M30 4L40 10L36 20L26 14L30 4Z" fill="#06B6D4" />
+      <path d="M30 44L40 38L36 28L26 34L30 44Z" fill="#2563EB" />
+      <circle cx="24" cy="24" r="2.5" fill="#06B6D4" />
+    </g>
+    <!-- Brand Title -->
+    <text x="110" y="55" fill="#F8FAFC" font-family="Inter, system-ui, sans-serif" font-size="44" font-weight="900" letter-spacing="4">KKVEXA</text>
+    <text x="112" y="80" fill="#06B6D4" font-family="Inter, system-ui, sans-serif" font-size="16" font-weight="700" letter-spacing="4">AI &amp; SOFTWARE STUDIO</text>
+    <!-- Headline -->
+    <text x="0" y="180" fill="#FFFFFF" font-family="Inter, system-ui, sans-serif" font-size="40" font-weight="800">Building intelligent software for ambitious businesses.</text>
+    <text x="0" y="230" fill="#A8B3C2" font-family="Inter, system-ui, sans-serif" font-size="20" font-weight="500">AI Integrations • Web Applications • Mobile Platforms • SaaS &amp; Automation</text>
+  </g>
+</svg>
