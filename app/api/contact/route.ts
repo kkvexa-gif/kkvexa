@@ -81,8 +81,8 @@ export async function POST(request: Request) {
     console.log(`======================================================\n`);
 
     // 3. Email Dispatch Configuration
-    const receiverEmail = process.env.CONTACT_RECEIVER_EMAIL || process.env.GMAIL_USER;
-    const gmailUser = process.env.GMAIL_USER ? process.env.GMAIL_USER.trim() : "";
+    const receiverEmail = (process.env.CONTACT_RECEIVER_EMAIL || process.env.GMAIL_USER || "").trim();
+    const gmailUser = (process.env.GMAIL_USER || "").trim();
     const gmailAppPassword = process.env.GMAIL_APP_PASSWORD
       ? process.env.GMAIL_APP_PASSWORD.replace(/\s+/g, "").trim()
       : "";
