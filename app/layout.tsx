@@ -45,7 +45,7 @@ export const metadata: Metadata = {
     siteName: "KKVEXA",
     title: "KKVEXA — AI & Software Studio",
     description:
-      "Building intelligent digital products, enterprise AI integrations, scalable web applications, and business automation.",
+      "Building intelligent software, custom AI integrations, modern web applications, and business automation.",
     images: [
       {
         url: "/brand/og-image.svg",
@@ -59,7 +59,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "KKVEXA — AI & Software Studio",
     description:
-      "Building intelligent digital products, enterprise AI integrations, scalable web applications, and business automation.",
+      "Building intelligent software, custom AI integrations, modern web applications, and business automation.",
     images: ["/brand/og-image.svg"],
   },
   robots: {

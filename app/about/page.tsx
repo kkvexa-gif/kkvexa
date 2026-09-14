@@ -9,7 +9,7 @@ import { Code2, ShieldCheck, Sparkles, Users } from "lucide-react";
 export const metadata: Metadata = {
   title: "About KKVEXA — AI & Software Studio",
   description:
-    "Learn about KKVEXA's engineering philosophy, mission, core values, and dedication to building intelligent digital products for modern enterprises.",
+    "Learn about KKVEXA's engineering philosophy, mission, core values, and dedication to building practical software and AI integrations for growing businesses.",
 };
 
 export default function AboutPage() {
@@ -18,25 +18,25 @@ export default function AboutPage() {
       icon: <Code2 className="w-6 h-6 text-cyan-400" />,
       title: "Pragmatic Engineering",
       description:
-        "We prioritize rock-solid system stability, low-latency APIs, and clean code over chasing fragile hype cycles. Every line of code serves a measurable business objective.",
+        "We prioritize rock-solid system stability, low latency, and clean code over chasing hype cycles. Every feature we build serves a clear business purpose.",
     },
     {
       icon: <Sparkles className="w-6 h-6 text-blue-400" />,
-      title: "Intelligent Systems",
+      title: "Practical AI Solutions",
       description:
-        "We view AI as an amplifier of software capability, not a substitute for rigorous architecture. We embed LLMs and machine learning where they deliver genuine ROI.",
+        "We view AI as an amplifier of software capability, not a replacement for good architecture. We implement LLMs and machine learning where they deliver genuine utility.",
     },
     {
       icon: <Users className="w-6 h-6 text-purple-400" />,
-      title: "Asynchronous Clarity",
+      title: "Clear Communication",
       description:
-        "Clear written specifications, concise sprint memos, and shared staging environments ensure friction-free collaboration with international teams across timezones.",
+        "Clear written specifications, concise sprint demos, and shared staging links ensure smooth collaboration with teams worldwide across different timezones.",
     },
     {
       icon: <ShieldCheck className="w-6 h-6 text-emerald-400" />,
-      title: "Zero Vendor Lock-In",
+      title: "100% Code & IP Ownership",
       description:
-        "Our clients retain 100% intellectual property and full repository ownership from day one. We build using open, battle-tested technologies that any team can maintain.",
+        "Our clients retain complete ownership of all repositories, architecture designs, and deployment configurations from day one. Zero vendor lock-in.",
     },
   ];
 
@@ -52,8 +52,8 @@ export default function AboutPage() {
             <SectionHeading
               isH1
               eyebrow="Our Story &amp; Philosophy"
-              title="Building the digital products of tomorrow."
-              description="KKVEXA was founded to bridge the gap between cutting-edge artificial intelligence and dependable, production-ready software engineering."
+              title="Building software that actually works."
+              description="KKVEXA was founded to bridge the gap between emerging artificial intelligence and dependable, production-ready software engineering."
             />
           </ScrollReveal>
         </div>
@@ -66,22 +66,22 @@ export default function AboutPage() {
             <div className="p-8 sm:p-14 rounded-3xl bg-[#0F1724]/90 border border-white/[0.08] shadow-2xl space-y-8 backdrop-blur-xl">
               <div>
                 <span className="text-xs font-mono uppercase tracking-widest text-cyan-400 font-bold block mb-3">
-                  Mission Statement
+                  Our Mission
                 </span>
                 <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-100 tracking-tight leading-snug">
-                  Engineering software that transforms ambitious ideas into resilient, scalable reality.
+                  Engineering digital products that help ambitious founders and businesses build with confidence.
                 </h2>
               </div>
 
               <div className="space-y-5 text-slate-300 text-sm sm:text-base leading-relaxed">
                 <p>
-                  Modern software engineering is at an inflection point. With the emergence of intelligent foundation models and distributed cloud primitives, companies no longer have to choose between engineering speed and architectural rigor.
+                  Modern software development has become more powerful than ever. With modern cloud infrastructure and intelligent AI models, teams can build and scale ideas faster than ever before.
                 </p>
                 <p>
-                  At KKVEXA, we operate as a dedicated engineering partner for founders, product leaders, and enterprise teams. We eliminate organizational friction by building with small, elite sprint teams who possess deep technical intuition across artificial intelligence, modern web frameworks, mobile architectures, and resilient automation pipelines.
+                  At KKVEXA, we operate as a dedicated engineering partner for founders and growing businesses. We avoid bureaucracy and work in focused, transparent sprints to design, build, and deploy reliable web apps, mobile tools, and AI workflows.
                 </p>
                 <p>
-                  Our long-term roadmap expands from bespoke client engineering into creating proprietary software and autonomous AI platforms that empower product teams worldwide.
+                  We believe in craftsmanship, clean code, honest timelines, and total transparency — giving you full ownership of your intellectual property at every step.
                 </p>
               </div>
             </div>

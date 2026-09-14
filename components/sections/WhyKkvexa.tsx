@@ -6,12 +6,12 @@ export function WhyKkvexa() {
     {
       title: "Engineering-Led Studio",
       description:
-        "You work directly with technical specialists and architects who understand code quality, performance bottlenecks, and scalable system design.",
+        "You work directly with the developers building your software. No layers of non-technical account managers — just clear, direct technical collaboration.",
     },
     {
       title: "Practical AI Implementation",
       description:
-        "We implement targeted LLM pipelines, RAG search, vector embeddings, and autonomous workers that directly automate real business operations.",
+        "We focus on practical AI use cases — smart document search, workflow automation, and custom model integrations that solve real business problems.",
     },
     {
       title: "100% Code & IP Ownership",
@@ -19,9 +19,9 @@ export function WhyKkvexa() {
         "You retain complete ownership of all repositories, architecture designs, and deployment configurations from day one. Zero vendor lock-in.",
     },
     {
-      title: "Predictable Agile Delivery",
+      title: "Transparent Sprint Delivery",
       description:
-        "Bi-weekly sprint demos, shared Git staging previews, clear async documentation, and transparent fixed milestones keep projects on schedule.",
+        "Regular progress demos, live staging previews, and clear communication keep your project moving forward without surprises.",
     },
   ];
 
@@ -38,10 +38,10 @@ export function WhyKkvexa() {
               </span>
             </div>
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-slate-100 tracking-tight leading-tight">
-              The engineering partner for serious product ambitions.
+              The engineering partner for ambitious digital products.
             </h2>
             <p className="mt-6 text-base text-slate-400 leading-relaxed">
-              We combine startup velocity with institutional-grade software engineering to deliver digital products that scale smoothly as your business grows.
+              We combine fast startup execution with reliable engineering practices to build software that scales cleanly as your business grows.
             </p>
           </div>
 

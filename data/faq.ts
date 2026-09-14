@@ -31,7 +31,7 @@ export const FAQS: FAQItem[] = [
     id: "timeline-mvp",
     question: "How long does it typically take to build an MVP or custom application?",
     answer:
-      "A focused, production-grade MVP typically takes 4 to 8 weeks from discovery to deployment. Larger enterprise web platforms or complex multi-tenant SaaS products range between 8 to 14 weeks. We prioritize modular releases so you can test core value with real users as early as possible.",
+      "A focused, production-ready MVP typically takes 4 to 8 weeks from discovery to launch. Larger web platforms or multi-tenant SaaS products range between 8 to 14 weeks. We prioritize modular releases so you can test core value with real users as early as possible.",
     category: "Process & Delivery",
   },
   {

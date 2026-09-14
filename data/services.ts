@@ -17,17 +17,17 @@ export const SERVICES: Service[] = [
     slug: "ai-solutions",
     title: "AI Integration & Applications",
     shortDescription:
-      "Embed autonomous intelligence, custom LLM pipelines, RAG systems, and predictive workflows directly into your operational software.",
+      "Build and integrate custom AI solutions, RAG search systems, and automated workflows directly into your applications.",
     fullDescription:
-      "We design and deploy practical AI architectures tailored to specific business contexts. From Retrieval-Augmented Generation (RAG) search engines to multimodal extraction pipelines and autonomous agentic workflows, our systems bridge frontier models with resilient production backends.",
+      "We build practical AI systems tailored to your specific business needs. From smart document search and summarization to conversational assistants and automated data pipelines, we connect modern AI models with dependable software backends.",
     problemSolved:
-      "Businesses struggle with high manual document processing overhead, slow data synthesis, generic chatbots that hallucinate, and fragmented legacy knowledge bases.",
+      "Teams spend hours on repetitive manual data entry, searching through fragmented documents, or struggling with off-the-shelf AI tools that don't fit their workflows.",
     whatWeBuild: [
-      "Custom RAG search systems with vector embeddings",
-      "Document extraction, OCR, and automated synthesis pipelines",
-      "Autonomous domain-specific agent workflows",
-      "Fine-tuned model endpoints and intelligent routing",
-      "Multimodal voice, vision, and semantic data processors",
+      "Custom search and retrieval (RAG) systems over internal documents",
+      "Document parsing, text extraction, and data structuring pipelines",
+      "Smart workflow assistants and domain-specific agents",
+      "Custom API endpoints connecting OpenAI, Claude, or open-source models",
+      "Multimodal audio, visual, and text processing workflows",
     ],
     technologies: [
       "OpenAI API",
@@ -39,10 +39,10 @@ export const SERVICES: Service[] = [
       "Hugging Face",
     ],
     deliverables: [
-      "Production-ready inference endpoints",
-      "Evaluation & guardrail benchmarks",
-      "Vector indexing architecture",
-      "API documentation & client SDKs",
+      "Tested and documented API endpoints",
+      "Data indexing and search architecture",
+      "Prompt engineering & evaluation setup",
+      "Integration guides & client documentation",
     ],
     iconName: "Bot",
   },
@@ -51,16 +51,16 @@ export const SERVICES: Service[] = [
     slug: "web-apps",
     title: "Web Application Development",
     shortDescription:
-      "High-performance, scalable web platforms and mission-critical portals engineered with modern React, Next.js, and clean architecture.",
+      "Fast, responsive web applications and dashboards built with React, Next.js, TypeScript, and clean architecture.",
     fullDescription:
-      "We engineer enterprise-grade web applications with uncompromising focus on speed, accessibility, security, and responsive UI design. Every application is architected for high concurrency, clean modularity, and smooth user flows.",
+      "We build modern web applications focused on performance, accessibility, and smooth user experiences. Every project is engineered with clean, modular code that is easy for your team to maintain and scale.",
     problemSolved:
-      "Slow, legacy web software that frustrates users, fails accessibility benchmarks, causes high bounce rates, and becomes fragile under traffic spikes.",
+      "Slow, outdated web interfaces that frustrate users, perform poorly on mobile devices, and become difficult to update as the product grows.",
     whatWeBuild: [
-      "High-traffic customer web portals and marketplaces",
-      "Complex interactive dashboards and data visualizations",
-      "B2B management consoles and administrative backoffices",
-      "Headless web platforms and dynamic marketing engines",
+      "Modern client-facing web applications and customer portals",
+      "Interactive analytics dashboards and admin panels",
+      "B2B internal tools and management platforms",
+      "Marketing websites with headless content management",
     ],
     technologies: [
       "Next.js (App Router)",
@@ -72,10 +72,10 @@ export const SERVICES: Service[] = [
       "GraphQL / REST",
     ],
     deliverables: [
-      "Responsive, WCAG 2.2 AA compliant frontend",
-      "Stateless & edge-optimized server components",
-      "Automated CI/CD deployment pipelines",
-      "Full source code & documentation",
+      "Responsive, accessible frontend codebase",
+      "Optimized server and API routes",
+      "Automated deployment pipeline (CI/CD)",
+      "Complete source code & documentation",
     ],
     iconName: "Globe",
   },
@@ -84,16 +84,16 @@ export const SERVICES: Service[] = [
     slug: "mobile-apps",
     title: "Mobile Application Development",
     shortDescription:
-      "Native and cross-platform mobile apps for iOS and Android delivering 60fps performance, offline resilience, and fluid interactions.",
+      "Cross-platform mobile apps for iOS and Android built with React Native for fast performance and intuitive UX.",
     fullDescription:
-      "We build robust mobile applications that feel intuitive, launch instantly, and handle intermittent connectivity seamlessly. Utilizing React Native and modern native bridges, we maximize cross-platform code reuse without sacrificing native platform fidelity.",
+      "We build cross-platform mobile apps that feel fast, launch smoothly, and handle offline situations gracefully. By sharing code across iOS and Android with React Native, we help you get to market faster without sacrificing quality.",
     problemSolved:
-      "Inconsistent user experiences across devices, slow native builds, high maintenance costs of managing separate codebases, and poor offline handling.",
+      "Managing separate iOS and Android codebases is costly and slow, while poorly built mobile apps crash, lag, or fail when internet connection drops.",
     whatWeBuild: [
-      "Cross-platform iOS and Android consumer apps",
-      "Field operations and on-site workforce tools",
-      "On-demand booking, commerce, and scheduling applications",
-      "Offline-first sync-enabled mobile client software",
+      "Cross-platform iOS and Android mobile apps",
+      "Field tools and workforce management apps",
+      "Booking, scheduling, and on-demand customer apps",
+      "Offline-capable apps with background data sync",
     ],
     technologies: [
       "React Native",
@@ -104,10 +104,10 @@ export const SERVICES: Service[] = [
       "SQLite / WatermelonDB",
     ],
     deliverables: [
-      "Production builds ready for App Store & Google Play",
-      "End-to-end device testing suite",
-      "Push notification & deep-link configurations",
-      "Comprehensive release documentation",
+      "Production-ready iOS and Android builds",
+      "Device testing across screen sizes",
+      "Push notifications and deep-linking setup",
+      "Store submission guidance and documentation",
     ],
     iconName: "Smartphone",
   },
@@ -116,16 +116,16 @@ export const SERVICES: Service[] = [
     slug: "saas-mvp",
     title: "SaaS & MVP Engineering",
     shortDescription:
-      "Turn product concepts into secure, scalable, market-ready SaaS applications in weeks with production-grade architecture.",
+      "Turn your product concept into a launch-ready SaaS MVP with user auth, billing, and clean database architecture.",
     fullDescription:
-      "We partner with startup founders and corporate innovation teams to design, architect, and launch validated MVPs. We balance rapid delivery with clean architectural foundations so your product scales seamlessly as customer acquisition accelerates.",
+      "We help founders and product teams build and launch validated MVPs quickly. We focus on getting core features into the hands of real users while laying a clean architectural foundation so you don't have to rewrite everything later.",
     problemSolved:
-      "Founders wasting months and capital on fragile prototypes that require complete rewrites before supporting real paying users.",
+      "Founders spending too much time and budget building overly complicated prototypes before testing their core product with real paying users.",
     whatWeBuild: [
-      "Multi-tenant SaaS architectures with role-based access",
-      "Subscription billing and automated payment gateways",
-      "User authentication, onboarding, and organization tiers",
-      "Real-time event logging, analytics, and telemetry",
+      "Multi-tenant SaaS platforms with team and user roles",
+      "Stripe subscription billing and checkout flows",
+      "User authentication, onboarding, and profile management",
+      "Activity logs, email notifications, and admin dashboards",
     ],
     technologies: [
       "Next.js / TypeScript",
@@ -136,10 +136,10 @@ export const SERVICES: Service[] = [
       "Docker / Cloud Infrastructure",
     ],
     deliverables: [
-      "Launch-ready SaaS codebase",
-      "Billing & subscription integration",
-      "Telemetry & error tracking setup",
-      "DevOps & staging environments",
+      "Launch-ready SaaS application codebase",
+      "Stripe billing & subscription integration",
+      "Authentication & database setup",
+      "Staging and production deployment configuration",
     ],
     iconName: "Rocket",
   },
@@ -148,16 +148,16 @@ export const SERVICES: Service[] = [
     slug: "automation",
     title: "Business & Workflow Automation",
     shortDescription:
-      "Eliminate repetitive manual operations by engineering automated event-driven workflows, data pipelines, and scheduled syncs.",
+      "Automate repetitive business tasks, sync data across tools, and build reliable background workflows.",
     fullDescription:
-      "We audit repetitive operational bottlenecks and engineer robust background automation systems. From automated CRM reconciliations to invoice parsing and cross-platform notification dispatchers, our pipelines operate reliably 24/7.",
+      "We help eliminate manual data entry and repetitive operations by building automated workflows. From synchronizing CRM data to processing invoices and sending alerts, our systems run reliably in the background.",
     problemSolved:
-      "Human error in manual data entry, slow cross-department handoffs, high labor overhead on administrative tasks, and siloed data systems.",
+      "Time lost copying data across different tools, human errors in manual tasks, and delays in communicating updates between teams.",
     whatWeBuild: [
-      "Event-driven webhook listeners and background workers",
-      "Automated financial reconciliation and reporting pipelines",
-      "Cross-system data synchronization engines",
-      "Intelligent alert triage and escalation bots",
+      "Webhook listeners and automated data sync between tools",
+      "Document and invoice processing pipelines",
+      "Custom alerts and notification bots (Slack, email, SMS)",
+      "Scheduled data imports and reporting jobs",
     ],
     technologies: [
       "Node.js / Python",
@@ -168,10 +168,10 @@ export const SERVICES: Service[] = [
       "Docker",
     ],
     deliverables: [
-      "Fault-tolerant workflow execution engine",
-      "Audit logs and monitoring dashboard",
-      "Automated retry mechanisms & alerts",
-      "Step-by-step operational playbooks",
+      "Configured workflow scripts and worker queues",
+      "Error handling and automated retry mechanisms",
+      "Execution logs and status dashboard",
+      "Clear documentation and runbooks",
     ],
     iconName: "Cpu",
   },
@@ -180,16 +180,16 @@ export const SERVICES: Service[] = [
     slug: "api-integrations",
     title: "API & Systems Integration",
     shortDescription:
-      "High-throughput RESTful and GraphQL APIs, third-party microservices, and secure middleware connectors for connected ecosystems.",
+      "Clean REST and GraphQL APIs, third-party integrations, and backend services to connect your tools and data.",
     fullDescription:
-      "We architect resilient, secure API layers that connect internal databases, third-party SaaS tools, payment processors, and client applications. Every endpoint is engineered with rate limiting, comprehensive validation, and sub-100ms response targets.",
+      "We build reliable API layers that connect your databases, third-party services (CRMs, payment gateways, ERPs), and client applications with clean validation, authentication, and comprehensive documentation.",
     problemSolved:
-      "Incompatible legacy software, lack of standardized APIs, insecure third-party integrations, and unmonitored communication failures between tools.",
+      "Siloed data across disconnected software tools, unmaintained legacy APIs, and integration failures that disrupt daily operations.",
     whatWeBuild: [
-      "Scalable RESTful & GraphQL backend microservices",
-      "Custom third-party middleware (CRMs, ERPs, Payment Gateways)",
-      "Secure OAuth2 authentication and API gateway routing",
-      "High-performance caching and rate-limiting layers",
+      "Custom RESTful and GraphQL backend APIs",
+      "Third-party integrations (CRMs, payment processors, webhooks)",
+      "OAuth2 authentication and role-based access control",
+      "API caching and rate limiting for stability",
     ],
     technologies: [
       "TypeScript / Node.js",
@@ -200,10 +200,10 @@ export const SERVICES: Service[] = [
       "PostgreSQL",
     ],
     deliverables: [
-      "OpenAPI 3.0 documentation & schemas",
-      "Automated integration & load test suites",
-      "Rate-limiting and security audit report",
-      "SDKs for web and mobile clients",
+      "Interactive API documentation (Swagger/OpenAPI)",
+      "Automated test suites for endpoints",
+      "Security and input validation rules",
+      "Client integration examples and SDKs",
     ],
     iconName: "Network",
   },

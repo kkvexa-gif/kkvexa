@@ -94,13 +94,13 @@ export function Hero() {
                       K
                     </div>
                     <div>
-                      <div className="text-xs font-bold text-slate-100">Document Intelligence Workspace</div>
-                      <div className="text-[11px] text-slate-400">Automated Extraction Pipeline</div>
+                      <div className="text-xs font-bold text-slate-100">Document Intelligence Demo</div>
+                      <div className="text-[11px] text-slate-400">Intelligent Document Extraction</div>
                     </div>
                   </div>
                   <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-[11px] font-medium bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">
                     <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
-                    Live
+                    Live Preview
                   </span>
                 </div>
 
@@ -113,12 +113,12 @@ export function Hero() {
                         <Database className="w-4 h-4" />
                       </div>
                       <div>
-                        <div className="text-xs font-semibold text-slate-200">Financial Reports &amp; Filings</div>
-                        <div className="text-[11px] text-slate-400">Multi-source PDF &amp; tabular intake</div>
+                        <div className="text-xs font-semibold text-slate-200">Document &amp; File Ingestion</div>
+                        <div className="text-[11px] text-slate-400">PDFs, spreadsheets &amp; form intake</div>
                       </div>
                     </div>
                     <span className="text-[11px] font-medium text-slate-400">
-                      Validated
+                      Uploaded
                     </span>
                   </div>
 
@@ -147,8 +147,8 @@ export function Hero() {
                         <Cpu className="w-4 h-4" />
                       </div>
                       <div>
-                        <div className="text-xs font-semibold text-slate-200">ERP &amp; Webhook Dispatch</div>
-                        <div className="text-[11px] text-slate-400">Automated accounting sync</div>
+                        <div className="text-xs font-semibold text-slate-200">API &amp; Webhook Dispatch</div>
+                        <div className="text-[11px] text-slate-400">Automated sync to your database</div>
                       </div>
                     </div>
                     <span className="text-[11px] font-medium text-slate-400">
@@ -160,7 +160,7 @@ export function Hero() {
                 {/* Bottom Status Row */}
                 <div className="mt-4 pt-3.5 border-t border-white/[0.08] flex items-center justify-between text-xs text-slate-400">
                   <span>Structured Schema Output</span>
-                  <span className="text-cyan-400 font-medium">Ready for deployment</span>
+                  <span className="text-cyan-400 font-medium">Validated JSON ready</span>
                 </div>
               </div>
             </div>
